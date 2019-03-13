@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         if (findViewById(R.id.id_textview_tablet) != null){
-            Toast.makeText(this,"Dovrei essere in un tablet",Toast.LENGTH_LONG).show();git
+            Toast.makeText(this,"Dovrei essere in un tablet",Toast.LENGTH_LONG).show();
         }
     }
 }
