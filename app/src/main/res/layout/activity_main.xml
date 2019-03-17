@@ -13,6 +13,7 @@
         android:layout_marginBottom="156dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
+        android:textSize="@dimen/my_text_size"
         android:text="Dovrei essere un phone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,7 +21,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="60dp"
+        android:layout_width="@dimen/my_value"
         android:layout_height="60dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"

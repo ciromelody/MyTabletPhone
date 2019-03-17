@@ -10,6 +10,7 @@
         android:id="@+id/id_button_phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="@dimen/my_text_size"
         android:layout_marginTop="8dp"
         android:text="Dovrei essere un phone  in Landscape"
         app:layout_constraintBottom_toBottomOf="parent"
