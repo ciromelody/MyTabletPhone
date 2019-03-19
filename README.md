@@ -11,4 +11,7 @@ create a folder  for tablets with the following wording:drawable-sw600dp-land,dr
 
 From program to know if the user uses a tablet or a phone, I insert in the layout_activity of the tablet a 
 resource (  android:id="@+id/id_textview_tablet") that doesn't exist in the layout_activity of the phone.
-At this point it is sufficient to check the resource to know if the resource exists.
+At this point it is sufficient to check the resource to know if the resource exists->
+if (findViewById(R.id.id_textview_tablet) != null){
+            Toast.makeText(this,"I am a Tablet !",Toast.LENGTH_LONG).show();
+        }
