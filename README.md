@@ -9,4 +9,6 @@ There are also two "-land" folders that allow you to differentiate the layout fr
 Images can also be chosen based on the type of phone or tablet device:
 create a folder  for tablets with the following wording:drawable-sw600dp-land,drawble-sw600dp for tablet.
 
-from program to know if the user uses a tablet or a phone, I insert in the layout_activity of the tablet a resource that doesn't exist in the layout_activity of the phone.
+From program to know if the user uses a tablet or a phone, I insert in the layout_activity of the tablet a 
+resource (  android:id="@+id/id_textview_tablet") that doesn't exist in the layout_activity of the phone.
+At this point it is sufficient to check the resource to know if the resource exists.
